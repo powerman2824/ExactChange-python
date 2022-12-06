@@ -25,4 +25,29 @@ pennies = int(pennies)
 
 change = num % 1
 
-print(f'{dollars}:{quaters}:{dimes}:{nickels}:{pennies}')
+if dollars > 0:
+    if dollars == 1:
+        print(f'{dollars} Dollar')
+    else:
+        print(f'{dollars} Dollars')
+if quaters > 0:
+    if quaters == 1:
+        print(f'{quaters} Quater')
+    else:
+        print(f'{quaters} Quaters')
+if dimes > 0:
+    if dimes == 1:
+        print(f'{dimes} Dime')
+    else:
+        print(f'{dimes} DImes')
+if nickels > 0:
+    if nickels == 1:
+        print(f'{nickels} Nickel')
+    else:
+        print(f'{nickels} Nickels')
+if pennies > 0:
+    if pennies == 1:
+        print(f'{pennies} Penny')
+    else:
+        print(f'{pennies} Pennies')
+# print(f'{dollars}:{quaters}:{dimes}:{nickels}:{pennies}')
